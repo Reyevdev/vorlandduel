@@ -1,0 +1,11 @@
+me\vorland\duel\model\Arena.class
+me\vorland\duel\listeners\DuelListener.class
+me\vorland\duel\manager\DuelManager.class
+me\vorland\duel\VorlandDuel.class
+me\vorland\duel\commands\AdminCommand.class
+me\vorland\duel\commands\DuelCommand.class
+me\vorland\duel\manager\ArenaManager.class
+me\vorland\duel\manager\DuelManager$1.class
+me\vorland\duel\manager\DuelManager$DuelInvite.class
+me\vorland\duel\model\DuelSession.class
+me\vorland\duel\manager\DuelLootManager.class

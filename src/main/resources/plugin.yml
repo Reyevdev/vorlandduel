@@ -1,0 +1,17 @@
+name: VorlandDuel
+version: 1.0
+main: me.vorland.duel.VorlandDuel
+api-version: '1.21'
+author: reyev
+commands:
+  duel:
+    description: Düello davet ve kabul komutları.
+    usage: /duel <invite/accept/sandık> <oyuncu>
+  vorlandduel:
+    description: Admin arena düzenleme komutları.
+    permission: vorlandduel.admin
+    usage: /vorlandduel <wand/create/spawn1/spawn2>
+permissions:
+  vorlandduel.admin:
+    description: Admin komutlarını kullanma yetkisi.
+    default: op
