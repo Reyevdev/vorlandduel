@@ -151,7 +151,6 @@ public class DuelListener implements Listener {
     public void onPlayerInteract(PlayerInteractEvent e) {
         Player p = e.getPlayer();
         
-        // Wand kontrolü yukarıdaki ayrı event'te yapılıyor, burası sadece düello içi etkileşimler
         DuelSession s = plugin.getDuelManager().getSession(p);
         
         if (s != null && !s.isElytra()) {
